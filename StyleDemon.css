@@ -14,53 +14,19 @@ src: url("/Fonts/montserrat-regular.ttf");
 
 body {
   font-family: "montserrat";
-  color: #FFB170;
-  background-color: #000D10;
+  color: #FFA88E;
+  background-color: #000A0A;
   font-variant: normal;
-  background-repeat: no-repeat;
+  background-image: url("Images/WebsiteBackgroundTop.jpg"), url("Images/WebsiteBackground.jpg");
+  background-repeat: no-repeat, repeat-y;
   letter-spacing: normal;
   word-spacing: normal;
-  font-size: 24px;
   -moz-text-size-adjust: 140%;
   -webkit-text-size-adjust: 140%;
   -ms-text-size-adjust: 140%;
     background-position: center top;
     text-align: center;
 }
-
-
-/* NON RETINA */
-
-/* style for all square images so no need to repeat */
-.sq-img-small {
-  background-size: 2528px 1422px;
-  height: 1422px;
-  width: 2528px;
-}
-
-.sq-img-small.img-small-1 {
-  background: url("Images/LogoAndBackground_LR.jpg") no-repeat;
-}
-
-/* RETINA */
-@media
-  (-webkit-min-device-pixel-ratio: 2),(-moz-device-pixel-ratio: 2), (min-resolution: 192dppx) {
-
-  .sq-img-small.img-small-1 {
-    background-size: 2528px 1422px;
-    height: 1422px;
-    width: 2528px;
-    background: url("Images/LogoAndBackground_HRjpg") no-repeat;
-  }
-
-
-.image-logo {
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   -webkit-transform: translateY(-60%) translateX(-50%);
-}
-
 
 .column-left {
   float: left;
@@ -75,7 +41,6 @@ body {
 .column-center {
   display: inline-block;
   width: 33%;
-  text-align: center;
 }
 
 .halfscaledimage {
@@ -89,7 +54,6 @@ body {
   width: 960px;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
 }
 
 .screenshots {
@@ -101,7 +65,7 @@ body {
 
 h1 {
   font-family: "rainfall";
-  color: #FF9848;
+  color: #E66F6C;
   letter-spacing: normal;
   word-spacing: normal;
   font-size: 50px;
@@ -119,7 +83,7 @@ h2 {
 h3 {
   font-family: "rainfall";
   font-size: 37px;
-  color: #FFE270;
+  color: #95416F;
   border-top-style: none;
   border-right-style: none;
   border-bottom-style: none;
@@ -130,27 +94,27 @@ h3 {
 }
 
 form {
-  background-color: #000D10;
+  /* background-color: #002324; */
   margin-right: auto;
   margin-left: auto;
-  width: 660px;
+  width: 760px;
   border-top-color: #5d3f82;
   border-right-color: #5d3f82;
   border-bottom-color: #5d3f82;
   border-left-color: #5d3f82;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-left-width: 4px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
   border-radius: 10px;
   padding-top: 0px;
-  padding-right: 5px;
-  padding-bottom: 15px;
-  padding-left: 5px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 .txtbox {
@@ -174,10 +138,10 @@ input {
   padding-right: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-left-width: 4px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
@@ -195,10 +159,6 @@ input[type="text"] {
 
 input[type="email"] {
   width: 300px;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-left-width: 4px;
 }
 
 input[type="text"]:focus {
@@ -232,13 +192,13 @@ textarea
 
 .button {
   font-family: "rainfall";
-  font-size: 26px;
+  font-size: 32px;
   color: #ffffff;
   background-color: #63369e;
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 1px;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
   background-image: none;
   background-repeat: repeat;
   background-attachment: scroll;
@@ -286,15 +246,15 @@ textarea
 
 @keyframes flashanim {
       from {
-        background-color: #63369e;
+        background-color: #E15450;
       }
 
       50% {
-        background-color: #DEDCF5;
+        background-color: #002829;
       }
 
       to {
-        background-color: #63369e;
+        background-color: #E15450;
       }
 }
 
@@ -327,4 +287,34 @@ textarea
   to {
     transform: scale3d(1, 1, 1);
   }
+}
+
+@media (min-width: 858px) {
+    html {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 780px) {
+    html {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 702px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 17px;
+    }
 }
