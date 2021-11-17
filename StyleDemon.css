@@ -15,7 +15,7 @@ src: url("/Fonts/montserrat-regular.ttf");
 body {
   font-family: "montserrat";
   color: #FFA88E;
-  background-color: #00313D;
+  background-color: #000A0A;
   font-variant: normal;
   background-image: url("Images/WebsiteBackgroundTop.jpg"), url("Images/WebsiteBackground.jpg");
   background-repeat: no-repeat, repeat-y;
