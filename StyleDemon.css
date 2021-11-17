@@ -22,9 +22,9 @@ body {
   letter-spacing: normal;
   word-spacing: normal;
   /* <Ed> This next bit seems to work best for text size adjusting */
-  -moz-text-size-adjust: 300%;
-  -webkit-text-size-adjust: 300%;
-  -ms-text-size-adjust: 300%;
+  -moz-text-size-adjust: 250%;
+  -webkit-text-size-adjust: 250%;
+  -ms-text-size-adjust: 250%;
   background-position: center top;
   text-align: center;
 }
@@ -71,13 +71,13 @@ h1 {
   word-spacing: normal;
   font-size: 40px;
   font-weight: normal;
-  -moz-text-size-adjust: 300%;
-  -webkit-text-size-adjust: 300%;
-  -ms-text-size-adjust: 300%;
+  -moz-text-size-adjust: 250%;
+  -webkit-text-size-adjust: 250%;
+  -ms-text-size-adjust: 250%;
 }
 
 h2 {
-  font-size: large;
+  font-size: 24px;
   font-weight: normal;
 }
 
@@ -92,9 +92,9 @@ h3 {
   font-weight: normal;
   letter-spacing: normal;
   word-spacing: normal;
-  -moz-text-size-adjust: 300%;
-  -webkit-text-size-adjust: 300%;
-  -ms-text-size-adjust: 300%;
+  -moz-text-size-adjust: 250%;
+  -webkit-text-size-adjust: 250%;
+  -ms-text-size-adjust: 250%;
 }
 
 form {
@@ -158,11 +158,11 @@ input {
 }
 
 input[type="text"] {
-  width: 300px;
+  width: 50%;
 }
 
 input[type="email"] {
-  width: 300px;
+  width: 50%;
 }
 
 input[type="text"]:focus {
