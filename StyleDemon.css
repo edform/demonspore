@@ -22,9 +22,9 @@ body {
   letter-spacing: normal;
   word-spacing: normal;
   /* <Ed> This next bit seems to work best for text size adjusting */
-  -moz-text-size-adjust: 250%;
-  -webkit-text-size-adjust: 250%;
-  -ms-text-size-adjust: 250%;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
   background-position: center top;
   text-align: center;
 }
@@ -71,9 +71,9 @@ h1 {
   word-spacing: normal;
   font-size: 40px;
   font-weight: normal;
-  -moz-text-size-adjust: 250%;
-  -webkit-text-size-adjust: 250%;
-  -ms-text-size-adjust: 250%;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
 }
 
 h2 {
@@ -92,9 +92,9 @@ h3 {
   font-weight: normal;
   letter-spacing: normal;
   word-spacing: normal;
-  -moz-text-size-adjust: 250%;
-  -webkit-text-size-adjust: 250%;
-  -ms-text-size-adjust: 250%;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
 }
 
 form {
@@ -323,3 +323,35 @@ textarea
         font-size: 17px;
     }
 }
+
+/*------------------------STEAM WIDGET------------------------------*/
+/*
+.widget-wrapper {
+	background: #14011d;
+	min-width: 265px;
+	max-width: 1000px;
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 5;
+	overflow: hidden;
+}
+.steam-widget {
+	position: relative;
+	padding-top: 0px;
+	width: 90%;
+	max-height: 216px;
+	height: calc(80vw*216/100);
+	z-index: 5;
+	overflow: hidden;
+}
+.steam-widget iframe, .steam-widget object, .steam-widget embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	overflow: hidden;
+}
+*/
