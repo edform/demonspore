@@ -2,14 +2,14 @@
 
   font-family: "rainfall";
 
-src: url("/Fonts/rainfall.otf");
+src: url("  Fonts/rainfall.otf");
 }
 
 @font-face {
 
   font-family: "montserrat";
 
-src: url("/Fonts/montserrat-regular.ttf");
+src: url("Fonts/montserrat-regular.ttf");
 }
 
 body {
@@ -27,6 +27,26 @@ body {
   -ms-text-size-adjust: 200%;
   background-position: center top;
   text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: #FFE270;
+}
+
+/* visited link */
+a:visited {
+  color: #FFE270;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF9848;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
 }
 
 .column-left {
@@ -79,12 +99,16 @@ h1 {
 h2 {
   font-size: 24px;
   font-weight: normal;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
 }
 
 h3 {
   font-family: "rainfall";
-  font-size: 37px;
-  color: #95416F;
+  font-size: 22px;
+  color: #E66F6C;
+  line-height: 0.1;
   border-top-style: none;
   border-right-style: none;
   border-bottom-style: none;
