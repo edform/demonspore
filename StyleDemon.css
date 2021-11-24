@@ -97,7 +97,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 30px;
+  color: #E66F6C;
   font-weight: normal;
   -moz-text-size-adjust: 200%;
   -webkit-text-size-adjust: 200%;
@@ -116,6 +117,24 @@ h3 {
   font-weight: normal;
   letter-spacing: normal;
   word-spacing: normal;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: normal;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+h5 {
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 60px;
+  font-weight: bold;
   -moz-text-size-adjust: 200%;
   -webkit-text-size-adjust: 200%;
   -ms-text-size-adjust: 200%;
