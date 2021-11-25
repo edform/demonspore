@@ -84,7 +84,16 @@ a:active {
   transform: scale(0.5);
 }
 
+/* <Ed> Used for tagline since should only have one h1 for better SEO */
 h1 {
+  font-size: 24px;
+  font-weight: normal;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+h2 {
   font-family: "rainfall";
   color: #E66F6C;
   letter-spacing: normal;
@@ -96,7 +105,7 @@ h1 {
   -ms-text-size-adjust: 200%;
 }
 
-h2 {
+h3 {
   font-size: 30px;
   color: #E66F6C;
   font-weight: normal;
@@ -105,29 +114,21 @@ h2 {
   -ms-text-size-adjust: 200%;
 }
 
-h3 {
-  font-family: "rainfall";
-  font-size: 22px;
-  color: #E66F6C;
-  line-height: 0.1;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  font-weight: normal;
-  letter-spacing: normal;
-  word-spacing: normal;
-  -moz-text-size-adjust: 200%;
-  -webkit-text-size-adjust: 200%;
-  -ms-text-size-adjust: 200%;
-}
-
 h4 {
-  font-size: 24px;
-  font-weight: normal;
-  -moz-text-size-adjust: 200%;
-  -webkit-text-size-adjust: 200%;
-  -ms-text-size-adjust: 200%;
+    font-family: "rainfall";
+    font-size: 22px;
+    color: #E66F6C;
+    line-height: 0.1;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    font-weight: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    -moz-text-size-adjust: 200%;
+    -webkit-text-size-adjust: 200%;
+    -ms-text-size-adjust: 200%;
 }
 
 h5 {
