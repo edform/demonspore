@@ -84,13 +84,17 @@ a:active {
   transform: scale(0.5);
 }
 
-/* <Ed> Used for tagline since should only have one h1 for better SEO */
+/* <Ed> Should only have one h1 for better SEO */
 h1 {
-  font-size: 24px;
-  font-weight: normal;
-  -moz-text-size-adjust: 200%;
-  -webkit-text-size-adjust: 200%;
-  -ms-text-size-adjust: 200%;
+    font-family: "rainfall";
+    color: #E66F6C;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 40px;
+    font-weight: normal;
+    -moz-text-size-adjust: 200%;
+    -webkit-text-size-adjust: 200%;
+    -ms-text-size-adjust: 200%;
 }
 
 h2 {
